@@ -7,6 +7,7 @@ import Login from './Login/login'
 import amen from './assets/AMENTEQUIERO.mp3'
 import kimi from './assets/kimi.mp3'
 import hoshi from './assets/hoshi.mp3'
+import Ludo from './Ludo/Ludo'
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(true)
@@ -198,6 +199,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/secret-message" element={<SecretMessage />} />
         <Route path="/gallery" element={<PhotoGallery />} />
+        <Route path="/ludo" element={<Ludo />} />
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </>

@@ -127,6 +127,13 @@ const Home = () => {
               <span className="text-xl sm:text-2xl">📸</span>
               <span className="hidden xs:inline">Galería</span>
             </Link>
+            <Link 
+              to="/ludo"
+              className="bg-white/20 backdrop-blur-sm text-white px-3 py-2 sm:px-6 sm:py-3 rounded-2xl font-semibold hover:bg-white/30 transition-all duration-300 transform hover:scale-105 flex items-center gap-2 shadow-lg hover:shadow-xl border border-white/10 text-sm sm:text-base flex-1 sm:flex-none justify-center"
+            >
+              <span className="text-xl sm:text-2xl">🎮</span>
+              <span className="hidden xs:inline">Adivina</span>
+            </Link>
           </div>
         </div>
       </nav>
